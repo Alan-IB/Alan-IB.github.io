@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Horario 5°H</title>
+</head>
+<body>
+  <!--Aqui abrimos un center para que nuestro texto quede al medio de cada celsa y se vea mas estetico-->
+  <center>
+  <!--Dentro de nuestro "center" pondremos un titulo con la etiqueta "<h1>"--> 
+    <h1>Horario de 5°H</h1>
+  <!--Para darle un toque mas estilizado he decidido poner una linea horizontal que separe nuestro titulo de la tabla, esto logrado con la etiqueta "<hr>" la cual se le asigno los valores
+      de color rojo-->
+    <hr style="border-color:red;">
+    <br><br>
+  <!--Para poner una tabla usaremos la etiqueta "<table>" y la acompañamos con el comando border para que los bordes de la tabla sean visibles-->
+  <table border="4";>
+  <!--Ahora es momento de empezar a incertar las columnas, para hacer eso se utilizo la etiqueta "<th>" y para tener una personalizacion descidi poner colores diferentes a cada materia y celda en general
+      y para eso se ocupo el comando "bgcolor" el cual con el codigo de color indicado rellenara el fondo de la celda seleccionada-->
+    <tr>
+      <th bgcolor=#0080FF>Materia</th>
+      <th bgcolor=#FE2E64>7:00am-8:00am</th>   
+      <th bgcolor=#FE2E64>8:00am-9:00am</th>
+      <th bgcolor=#FE2E64>9:00am-10:00am</th>
+      <th bgcolor=#FE2E64>10:00am-11:00am</th>
+      <th bgcolor=#FE2E64>11:00am-12:00pm</th>
+      <th bgcolor=#FE2E64>12:00pm-1:00pm</th>
+      <th bgcolor=#FE2E64>1:00pm-2:00pm</th>
+      <th bgcolor=#FE2E64>2:00PM-3:00PM</th>
+    </tr>
+  <!--Utilizaremos la etiquta "<td>" y empeze a insertar las materias correspondientes-->
+    <tr>
+      <td bgcolor=#0080FF>Lunes</td>
+      <td bgcolor=#FE2EC8>Construye base de datos para aplicaciones Web (prof.Villegas Eric)</td>
+      <td bgcolor=#81F781>Cálculo integral (prof.De Leon Musio)</td>
+      <td bgcolor=##0174DF>Física II (prof.Favila Ruben)</td>
+      <td bgcolor=#F7D358>Ingles IV (profa.Rojas Diosetlyn)</td>
+      <td bgcolor=#000000G>-</td>
+      <td bgcolor=#FAFAFA><h6 style="color:#FAFAFA;">-</h6></td>
+      <td bgcolor=#000000G>-</td>
+      <td bgcolor=#FAFAFA><h6 style="color:#FAFAFA;">-</h6></td>
+    </tr>
+    <tr>
+      <td bgcolor=#0080FF>Martes</td>
+      <td bgcolor=#FE2EC8>Construye base de datos para aplicaciones Web (prof.Villegas Eric)</td>
+  <!--En el siguiente caso la materia de desarrollo de aplicaciones web tiene dos horas seguidas,por lo cual para ahorrar codigo
+      decidi ponerlo en una sola celda que abarque dos horas, esto se hace con el comando "colspan"-->
+      <td colspan="2"; bgcolor=#FA5858>Desarrolla aplicaciones Web con conexion a base de datos (prof.Raúl Zamora)</td>
+      <td bgcolor=#81F781>Cálculo integral (prof.De Leon Musio)</td>
+      <td bgcolor=#F7D358>Ingles IV (profa.Rojas Diosetlyn)</td>
+      <td colspan="2"; bgcolor=#0174DF>Física II (prof.Favila Ruben)</td>
+      <td bgcolor=#000000G>-</td>
+
+    </tr>
+    <tr>
+      <td bgcolor=#0080FF>Miercoles</td>
+      <td colspan="2"; bgcolor=#FE2EC8>Construye base de datos para aplicaciones Web (prof.Villegas Eric)</td>
+      <td bgcolor=#81F781>Cálculo integral (prof.De Leon Musio)</td>
+      <td bgcolor=#FA5858>Desarrolla aplicaciones Web con conexion a base de datos (prof.Raúl Zamora)</td>
+      <td bgcolor=#F7D358>Ingles IV (profa.Rojas Diosetlyn)</td>
+      <td bgcolor=#FAFAFA><h6 style="color:#FAFAFA;">-</h6></td>
+      <td bgcolor=#000000G>-</td>
+      <td bgcolor=#FAFAFA><h6 style="color:#FAFAFA;">-</h6></td>
+    </tr>
+    <tr>
+      <td bgcolor=#0080FF>Jueves</td>
+      <td colspan="2"; bgcolor=#FE2EC8>Construye base de datos para aplicaciones Web (prof.Villegas Eric)</td>
+      <td bgcolor=#0174DF>Física II (prof.Favila Ruben)</td>
+      <td bgcolor=#F7D358>Ingles IV (profa.Rojas Diosetlyn)</td>
+      <td bgcolor=#FA5858>Desarrolla aplicaciones Web con conexion a base de datos (prof.Raúl Zamora)</td>
+      <td bgcolor=#000000G>-</td>
+      <td bgcolor=#FAFAFA><h6 style="color:#FAFAFA;">-</h6></td>
+      <td bgcolor=#000000G>-</td>
+    </tr>
+    <tr>
+     <td bgcolor=#0080FF>Viernes</td>
+      <td colspan="2"; bgcolor=#81F781>Cálculo integral (prof.De Leon Musio)</td>
+      <td bgcolor=#642EFE>Tutoía (profa.Reynoso Norma)</td>
+      <td colspan="2"; bgcolor=#FA5858>Desarrolla aplicaciones Web con conexion a base de datos (prof.Raúl Zamora)</td>
+      <td bgcolor=#F7D358>Ingles IV (profa.Rojas Diosetlyn)</td>
+      <td bgcolor=#000000G>-</td>
+      <td bgcolor=#FAFAFA><h6 style="color:#FAFAFA;">-</h6></td>
+    </tr>
+
+
+  </table>
+  </center>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+   
+ <!--En este punto de la pagina ya que la tabla esta terminada puse un pie de pagina con la etiqueta "<footer>" , esta
+     tendra mi nombre, grado y grupo y carrera-->
+ <footer>
+    <p>Pagina creada por:Alan Jesus Ibarra Núñez.
+       <br>
+       Grado y Grupo:5°H.
+       <br>
+       Carrera:Programación.</p>
+    
+ </footer>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
